@@ -56,78 +56,86 @@ $(window).on('load', function () {
         $(window).on('load', function () {
             var x = jQuery('#PeriodSelector');
             x.change(function () {
-                if ($(this).val() == 'period1') {
-                    $('#submitdate1').html("08/18/2020"); $('#submitdate2').html("08/31/2020"); filldays("2020-7-27");
-                }
+              
                 if ($(this).val() == 'period2') {
-                    $('#submitdate1').html("09/01/2020"); $('#submitdate2').html("09/15/2020"); filldays("2020-8-17");
+                    $('#submitdate1').html("07/26/2021"); $('#submitdate2').html("08/08/2021"); filldays("2021-7-26");
                 }
                 if ($(this).val() == 'period3') {
-                    $('#submitdate1').html("09/15/2020"); $('#submitdate2').html("09/30/2020"); filldays("2020-8-31");
+                    $('#submitdate1').html("08/09/2021"); $('#submitdate2').html("09/22/2021"); filldays("2021-8-9");
                 }
                 if ($(this).val() == 'period4') {
-                    $('#submitdate1').html("09/29/2020"); $('#submitdate2').html("10/15/2020"); filldays("2020-9-14");
+                    $('#submitdate1').html("08/23/2021"); $('#submitdate2').html("09/05/2021"); filldays("2021-8-23");
                 }
                 if ($(this).val() == 'period5') {
-                    $('#submitdate1').html("10/20/2020"); $('#submitdate2').html("10/30/2020"); filldays("2020-9-28");
+                    $('#submitdate1').html("09/06/2021"); $('#submitdate2').html("09/19/2021"); filldays("2021-9-6");
                 }
                 if ($(this).val() == 'period6') {
-                    $('#submitdate1').html("11/03/2020"); $('#submitdate2').html("11/13/2020"); filldays("2020-10-19");
+                    $('#submitdate1').html("09/20/2021"); $('#submitdate2').html("10/03/2021"); filldays("2021-9-20");
                 }
                 if ($(this).val() == 'period7') {
-                    $('#submitdate1').html("11/17/2020"); $('#submitdate2').html("11/30/2020"); filldays("2020-11-2");
+                    $('#submitdate1').html("10/04/2021"); $('#submitdate2').html("10/17/2021"); filldays("2021-10-4");
                 }
                 if ($(this).val() == 'period8') {
-                    $('#submitdate1').html("12/01/2020"); $('#submitdate2').html("12/15/2020"); filldays("2020-11-16");
+                    $('#submitdate1').html("10/18/2021"); $('#submitdate2').html("10/31/2021"); filldays("2021-10-18");
                 }
                 if ($(this).val() == 'period9') {
-                    $('#submitdate1').html("12/15/2020"); $('#submitdate2').html("12/31/2020"); filldays("2020-11-30");
+                    $('#submitdate1').html("11/01/2021"); $('#submitdate2').html("11/14/2021"); filldays("2021-11-1");
                 }
                 if ($(this).val() == 'period10') {
-                    $('#submitdate1').html("12/29/2020"); $('#submitdate2').html("01/15/2021"); filldays("2020-12-14");
+                    $('#submitdate1').html("11/15/2021"); $('#submitdate2').html("11/28/2021"); filldays("2021-11-15");
                 }
                 if ($(this).val() == 'period11') {
-                    $('#submitdate1').html("01/12/2021"); $('#submitdate2').html("01/29/2021"); filldays("2020-12-28");
+                    $('#submitdate1').html("11/29/2021"); $('#submitdate2').html("12/12/2021"); filldays("2021-11-2");
                 }
                 if ($(this).val() == 'period12') {
-                    $('#submitdate1').html("01/26/2021"); $('#submitdate2').html("02/12/2021"); filldays("2021-1-11");
+                    $('#submitdate1').html("12/13/2021"); $('#submitdate2').html("12/26/2021"); filldays("2021-12-13");
                 }
                 if ($(this).val() == 'period13') {
-                    $('#submitdate1').html("02/16/2021"); $('#submitdate2').html("02/26/2021"); filldays("2021-1-25");
+                    $('#submitdate1').html("12/27/2021"); $('#submitdate2').html("01/09/2022"); filldays("2021-12-27");
                 }
                 if ($(this).val() == 'period14') {
-                    $('#submitdate1').html("03/02/2021"); $('#submitdate2').html("03/15/2021"); filldays("2021-2-15");
+                    $('#submitdate1').html("01/10/2022"); $('#submitdate2').html("01/23/2022"); filldays("2022-1-10");
                 }
                 if ($(this).val() == 'period15') {
-                    $('#submitdate1').html("03/16/2021"); $('#submitdate2').html("03/31/2021"); filldays("2021-3-1");
+                    $('#submitdate1').html("01/24/2022"); $('#submitdate2').html("02/06/2022"); filldays("2022-1-24");
                 }
                 if ($(this).val() == 'period16') {
-                    $('#submitdate1').html("03/30/2021"); $('#submitdate2').html("04/15/2021"); filldays("2021-3-15");
+                    $('#submitdate1').html("02/07/2022"); $('#submitdate2').html("02/20/2022"); filldays("2022-2-7");
                 }
                 if ($(this).val() == 'period17') {
-                    $('#submitdate1').html("04/13/2021"); $('#submitdate2').html("04/30/2021"); filldays("2021-3-29");
+                    $('#submitdate1').html("02/21/2022"); $('#submitdate2').html("03/06/2022"); filldays("2022-2-21");
                 }
                 if ($(this).val() == 'period18') {
-                    $('#submitdate1').html("04/27/2021"); $('#submitdate2').html("05/14/2021"); filldays("2021-4-12");
+                    $('#submitdate1').html("03/07/2022"); $('#submitdate2').html("03/20/2022"); filldays("2022-3-7");
                 }
                 if ($(this).val() == 'period19') {
-                    $('#submitdate1').html("05/18/2021"); $('#submitdate2').html("05/28/2021"); filldays("2021-4-26");
+                    $('#submitdate1').html("03/21/2022"); $('#submitdate2').html("04/03/2022"); filldays("2022-3-21");
                 }
                 if ($(this).val() == 'period20') {
-                    $('#submitdate1').html("06/01/2021"); $('#submitdate2').html("06/15/2021"); filldays("2021-5-17");
+                    $('#submitdate1').html("04/04/2022"); $('#submitdate2').html("04/17/2022"); filldays("2022-4-4");
                 }
                 if ($(this).val() == 'period21') {
-                    $('#submitdate1').html("06/15/2021"); $('#submitdate2').html("06/30/2021"); filldays("2021-5-31");
+                    $('#submitdate1').html("04/18/2022"); $('#submitdate2').html("05/01/2022"); filldays("2022-4-18");
                 }
                 if ($(this).val() == 'period22') {
-                    $('#submitdate1').html("07/06/2021"); $('#submitdate2').html("07/15/2021"); filldays("2021-6-14");
+                    $('#submitdate1').html("05/02/2022"); $('#submitdate2').html("05/15/2022"); filldays("2022-5-2");
                 }
                 if ($(this).val() == 'period23') {
-                    $('#submitdate1').html("07/20/2021"); $('#submitdate2').html("07/30/2021"); filldays("2021-7-5");
+                    $('#submitdate1').html("05/16/2022"); $('#submitdate2').html("05/29/2022"); filldays("2022-5-16");
                 }
                 if ($(this).val() == 'period24') {
-                    $('#submitdate1').html("08/02/2021"); $('#submitdate2').html("08/13/2021"); filldays("2021-7-19");
+                    $('#submitdate1').html("05/30/2022"); $('#submitdate2').html("06/12/2022"); filldays("2022-5-30");
                 }
+				if ($(this).val() == 'period25') {
+                    $('#submitdate1').html("06/13/2022"); $('#submitdate2').html("06/26/2022"); filldays("2022-6-13");
+                }
+				if ($(this).val() == 'period26') {
+                    $('#submitdate1').html("06/27/2022"); $('#submitdate2').html("07/10/2022"); filldays("2022-6-27");
+                }
+				if ($(this).val() == 'period27') {
+                    $('#submitdate1').html("07/11/2022"); $('#submitdate2').html("07/24/2022"); filldays("2022-7-11");
+                }
+		
                 calculate();
                 $('.holidayWarning').show();
                 $('#regularHoursDefLabel').show();
